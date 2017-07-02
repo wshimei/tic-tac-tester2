@@ -1,0 +1,29 @@
+body {
+  width: 300px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-right: -12px;
+}
+
+.main-board {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: #54C6D6;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  border: 2px solid black;
+  font-size: 80px;
+  font-family: 'Raleway', sans-serif;
+}
